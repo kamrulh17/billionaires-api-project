@@ -1,0 +1,101 @@
+/* ==================================================
+           import google fonts
+================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+/* ==================================================
+                site css
+================================================== */
+
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400 !important;
+}
+
+.text-primary{
+    color: #0E1B34 !important;
+}
+.bg-primary{
+    background: #0E1B34 !important;
+}
+
+.font-light{
+    font-weight: 300;
+}
+.font-regular{
+    font-weight: 400;
+}
+.font-bold{
+    font-weight: 600;
+}
+
+#search-field input{
+    width: 50% !important;
+    border: 2px solid #0E1B34;
+    padding: 5px !important;
+    border-radius: 5px;
+}
+
+#search-field input:focus-visible{
+    border: 2px solid #0E1B34;
+    outline: none !important;
+}
+
+#search-btn{
+    width: 10% !important;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 10px !important;
+    border: 2px solid #0E1B34;
+}
+#search-btn:hover{
+    background: #0E1B34;
+    color: #ffffff;
+    border: 2px solid #0E1B34;
+}
+
+/* ========== Sidebar CSS ========== */
+.sidebar-buttons{
+    margin: 0 auto !important;
+}
+.sidebar-btn{
+    display: inline-block;
+    width: 200px;
+    margin: auto;
+    height: 50px;
+    line-height: 50px;
+}
+
+/* ========== Table CSS ========== */
+th,td{
+    padding: 1rem !important;
+}
+.eye-icon{
+    border: 0 !important;
+    outline: 0 !important;
+    background: none !important;
+}
+
+tfoot tr td{
+    font-weight: 600;
+}
+
+
+.select-options{
+    height: 40px;
+    width: 200px;
+}
+
+.height-100{
+    height: 100vh;
+}
